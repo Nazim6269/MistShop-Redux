@@ -1,0 +1,33 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 1rem;
+  padding: 1rem 3rem;
+}
+
+.card {
+  width: 18rem;
+  border: 2px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+.card_details {
+  width: 50%;
+  padding: 2rem 3rem;
+  height: auto;
+}
+
+.image {
+  height: 200px;
+  width: 150px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  padding: 2px 8px;
+  margin-right: 10px;
+}
